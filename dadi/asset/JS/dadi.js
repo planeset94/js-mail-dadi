@@ -6,5 +6,8 @@ var computer_num;
 
 // ASSOCIO UN VALORE CASUALE A CIASCUNA VARIABILE
 
-user_num=Math.random();
-console.log(user_num*100);
+user_num=Math.random()*6;
+console.log(user_num);
+
+computer_num=Math.random()*6;
+console.log(computer_num);
